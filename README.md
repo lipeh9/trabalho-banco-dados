@@ -38,37 +38,35 @@ Mini-CRM é um sistema simples de gerenciamento de clientes, tarefas e contatos,
 
 ---
 
-## 📁 Estrutura de Pastas
-"""
+# Estrutura de Pastas
 mini_crm/
 ├── instance/
-│   └── database.db          # Banco de dados SQLite
+│ └── database.db # Banco de dados SQLite
 ├── static/
-│   └── style.css            # Estilo da aplicação
+│ └── style.css # Estilo da aplicação
 ├── templates/
-│   ├── base.html            # Layout principal
-│   ├── dashboard.html       # Página inicial
-│   ├── clientes/            # Templates de cliente
-│   │   ├── cadastrar.html
-│   │   ├── detalhes.html
-│   │   ├── editar.html
-│   │   ├── listar.html
-│   │   └── novo.html
-│   ├── contatos/            # Templates de contato
-│   │   ├── editar.html
-│   │   ├── listar.html
-│   │   └── novo.html
-│   └── tarefas/             # Templates de tarefas
-│       ├── editar.html
-│       ├── listar.html
-│       └── nova.html
-├── app.py                   # Roteador principal Flask
-├── database.py              # Configuração do banco
-├── models.py                # Definição das classes SQLAlchemy
-├── forms.py                 # Formulários com WTForms
+│ ├── base.html # Layout principal
+│ ├── dashboard.html # Página inicial
+│ ├── clientes/ # Templates de cliente
+│ │ ├── cadastrar.html
+│ │ ├── detalhes.html
+│ │ ├── editar.html
+│ │ ├── listar.html
+│ │ └── novo.html
+│ ├── contatos/ # Templates de contato
+│ │ ├── editar.html
+│ │ ├── listar.html
+│ │ └── novo.html
+│ └── tarefas/ # Templates de tarefas
+│ ├── editar.html
+│ ├── listar.html
+│ └── nova.html
+├── app.py # Roteador principal Flask
+├── database.py # Configuração do banco
+├── models.py # Definição das classes SQLAlchemy
+├── forms.py # Formulários com WTForms
 ├── requirements.txt
 └── README.md
-"""
 
 ## ▶️ Como Executar o Projeto
 
