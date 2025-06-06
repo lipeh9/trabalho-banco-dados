@@ -67,7 +67,7 @@ mini_crm/
 ├── forms.py # Formulários com WTForms
 ├── requirements.txt
 └── README.md
-
+---
 ## ▶️ Como Executar o Projeto
 
 ### 1. Clone o repositório
