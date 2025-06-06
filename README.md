@@ -36,8 +36,8 @@ Mini-CRM é um sistema simples de gerenciamento de clientes, tarefas e contatos,
 - **Jinja2** para templates
 - **Bootstrap 5** (customizado via `static/style.css`)
 ---
-```
 ### 📁 Estrutura de Pastas
+```
 mini_crm/
 ├── instance/
 │ └── database.db # Banco de dados SQLite
