@@ -42,6 +42,7 @@ Mini-CRM é um sistema simples de gerenciamento de clientes, tarefas e contatos,
 
 mini_crm/
 ├── instance/
+
 │ └── database.db # Banco de dados SQLite
 ├── static/
 │ └── style.css # Estilo da aplicação
