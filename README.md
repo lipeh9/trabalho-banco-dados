@@ -60,14 +60,17 @@ mini_crm/
 │ │ ├── editar.html
 │ │ ├── listar.html
 │ │ └── novo.html
+
 │ ├── contatos/ # Templates de contato
 │ │ ├── editar.html
 │ │ ├── listar.html
 │ │ └── novo.html
+
 │ └── tarefas/ # Templates de tarefas
 │ ├── editar.html
 │ ├── listar.html
 │ └── nova.html
+
 ├── app.py # Roteador principal Flask
 ├── database.py # Configuração do banco
 ├── models.py # Definição das classes SQLAlchemy
