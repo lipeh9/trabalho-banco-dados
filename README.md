@@ -44,11 +44,16 @@ mini_crm/
 ├── instance/
 
 │ └── database.db # Banco de dados SQLite
+
 ├── static/
+
 │ └── style.css # Estilo da aplicação
 ├── templates/
+
 │ ├── base.html # Layout principal
+
 │ ├── dashboard.html # Página inicial
+
 │ ├── clientes/ # Templates de cliente
 │ │ ├── cadastrar.html
 │ │ ├── detalhes.html
